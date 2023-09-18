@@ -22,15 +22,20 @@ module.exports = {
           success: "#00AB63",
         },
       screens: {
-          xl: '1440px'
+          lg: '1025px',
+          xl: '1281px',
+          xxl: '1440px'
       },
       container: {
         screens: {
-            xl: '1280px'
+            xxl: '1280px'
         }
       }, 
       borderRadius: {
         'basic': '0.313rem',
+      },
+      backgroundImage: {
+        'offer-pattern': "url('../images/background.png')",
       },
       customClasses: {
         'button-primary': 'rounded-lg border border-gray-800 shadow-inner text-xl px-8 py-3 transition duration-300 ease-in-out hover:bg-secondary-100',
@@ -39,4 +44,3 @@ module.exports = {
   },
   plugins: [],
 }
-
