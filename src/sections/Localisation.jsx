@@ -1,7 +1,9 @@
 import React from 'react';
-import classFirst from '../images/class1.webp'
-import classSecond from '../images/class2.webp'
-import classThird from '../images/class3.webp'
+import classFirst from '../images/class1.webp';
+import classSecond from '../images/class2.webp';
+import classThird from '../images/class3.webp';
+
+const classImages = [classFirst, classSecond, classThird];
 
 function Localisation() {
   return (
@@ -13,21 +15,17 @@ function Localisation() {
         </div>
         <p className='my-8 lg:w-9/12'>
           Zajęcia stacjonarne odbywają się w dwóch lokalizacjach: kameralnej sali przy ul.  <span className='font-semibold'>św Gertrudy 19/11</span> lub przy ul. 
-           <span className='font-semibold'>Kremerowskiej 6/9</span>
+          <span className='font-semibold'>Kremerowskiej 6/9</span>
           w Krakowie. 
         </p> 
       </div>
-        <div className='md:flex m-8 xl:mx-12 text-center justify-around'>
-          <div className="relative m-auto w-full sm:w-11/12 mb-8 sm:p-4">
-            <img src={classFirst} alt="class photo" className='relative  mx-auto z-10 rounded-basic'/>
+      <div className='md:flex m-8 xl:mx-12 text-center justify-around'>
+        {classImages.map((imageSrc, index) => (
+          <div key={index} className="relative w-full m-auto sm:w-11/12 mb-8 sm:p-4">
+            <img src={imageSrc} alt={`class ${index + 1} photo`} className='relative mx-auto z-10 rounded-basic'/>
           </div>
-          <div className="relative w-full m-auto sm:w-11/12 mb-8 sm:p-4">
-            <img src={classSecond} alt="class photo" className='relative mx-auto z-10 rounded-basic'/>
-          </div>
-          <div className="relative w-full m-auto sm:w-11/12 mb-8 sm:p-4">
-            <img src={classThird} alt="class photo" className='relative mx-auto z-10 rounded-basic'/>
-          </div>      
-        </div>
+        ))}
+      </div>
     </section>
   );
 }
