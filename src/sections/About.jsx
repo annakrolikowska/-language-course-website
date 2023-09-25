@@ -10,13 +10,13 @@ const paragraphs = [
   
 function About() {
     return (
-        <section>
-            <div className='container mx-auto auto pb-10 md:mb-32'>
+        <section id='about'>
+            <div className='container mx-auto auto pb-10 px-5 xl:px-0 mb-12 md:mb-24'>
                 <div className='relative inline-block'>
                     <h2 className='text-5xl font-radley relative z-10'>O mnie</h2>
                 <div className='w-100 h-4 bg-primary-25 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
                 </div>
-                <div className='md:flex justify-between'>
+                <div className='lg:flex justify-between'>
                     <div className='w-full my-8'>
                         {paragraphs.map((paragraph, index) => (
                         <p className='mb-8 md:w-11/12' key={index}>
@@ -24,10 +24,11 @@ function About() {
                         </p>
                         ))}
                     </div>
-                <div className='relative md:w-6/12'>
-                    <img src={aboutImage} alt="Ksenia Sumina" className='relative w-11/12 mx-auto z-10 rounded-basic'/>
-                    <div className=' h-5/6 bg-primary-25 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
-                    </div>
+                    <div className='relative lg:w-6/12 flex items-center'>
+                        <img src={aboutImage} alt="Ksenia Sumina" className='relative sm:w-8/12 lg:w-11/12 mx-auto z-10 rounded-basic'/>
+                        <div className=' xl:h-[492px] bg-primary-25 absolute top-20  left-0 right-0 rounded-basic'></div> 
+                    </div> 
+                    
                 </div>
             </div>
         </section>

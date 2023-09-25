@@ -6,11 +6,11 @@ import iconThird from '../images/icon3.png'
 
 function Offer() {
   return (
-    <section>
-      <div className=' bg-cover bg-center'  style={{
+    <section id='offer'>
+      <div className='bg-cover bg-center'  style={{
             backgroundImage: `url(${backgroundImg})`,
           }}>
-        <div className='container mx-auto auto pb-10 px-5 xl:px-0 md:mb-32 pt-16'>
+        <div className='container mx-auto auto pb-10 px-5 xl:px-0 mb-12 md:mb-24 pt-16'>
             <div className='relative inline-block'>
                 <h2 className='text-5xl font-radley relative z-10'>Oferta</h2>
                 <div className='w-100 h-4 bg-primary-25 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
