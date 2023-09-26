@@ -13,10 +13,10 @@ function Offer() {
         <div className='container mx-auto auto pb-10 px-5 xl:px-0 mb-12 md:mb-24 pt-16'>
             <div className='relative inline-block'>
                 <h2 className='text-5xl font-radley relative z-10'>Oferta</h2>
-                <div className='w-100 h-4 bg-primary-25 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
+                <div className='w-100 h-4 bg-grey-0 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
             </div>
             <div className='lg:flex gap-8 xl:gap-24 my-8 text-center justify-between'>
-                <div className="rounded-basic lg:w-[350px] mb-8 p-10 bg-white shadow-md">
+                <div className="rounded-basic lg:w-[333px] mb-8 p-10 bg-grey-0 shadow-md hover:scale-105 transition-transform">
                   <h3 className='text-2xl'>Zajęcia indywidualne</h3>
                   <img src={iconFirst} alt="individual" className='mx-auto py-8'/>
                   <ul>
@@ -25,7 +25,7 @@ function Offer() {
                   </ul>
                   <p className='mt-8'>Pierwsza lekcja dla zajęć indywidualnych o 50% taniej</p>
                 </div>
-                <div className="rounded-basic lg:w-[350px] mb-8 p-10 bg-white shadow-md">
+                <div className="rounded-basic lg:w-[333px] mb-8 p-10 bg-grey-0 shadow-md hover:scale-105 transition-transform">
                   <h3 className='text-2xl'>Zajęcia w parach</h3>
                   <img src={iconSecond} alt="individual" className='mx-auto py-8'/>
                   <ul>
@@ -34,7 +34,7 @@ function Offer() {
                   </ul>
                   <p className='mt-8'></p>
                 </div>
-                <div className="rounded-basic lg:w-[350px] mb-8 p-10 bg-white shadow-md">
+                <div className="rounded-basic lg:w-[333px] mb-8 p-10 bg-grey-0 shadow-md hover:scale-105 transition-transform">
                   <h3 className='text-2xl'>Grupa początkująca</h3>
                   <img src={iconThird} alt="individual" className='mx-auto py-8'/>
                   <ul>
