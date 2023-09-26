@@ -11,7 +11,7 @@ function Footer() {
 
   return (
     <section>
-      <div className='bg-primary-50'>
+      <div className='bg-primary-50 flex justify-end min-h-[200px]'>
         <div className="container mx-auto flex flex-col-reverse md:flex-row justify-between md:items-end p-5 xl:px-0">
           <div className="mb-4 md:mb-0">
             <p className="text-sm">&copy; {new Date().getFullYear()} Ksenia Sumina</p>
