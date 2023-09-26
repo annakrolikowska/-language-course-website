@@ -19,9 +19,9 @@ function Localisation() {
           w Krakowie. 
         </p> 
       </div>
-      <div className='md:flex m-8 xl:mx-12 text-center justify-around'>
+      <div className='md:flex m-8 text-center justify-around max-w-screen-2xl mx-auto'>
         {classImages.map((imageSrc, index) => (
-          <div key={index} className="relative w-full m-auto sm:w-11/12 mb-8 sm:p-4">
+          <div key={index} className="relative w-full m-auto sm:w-11/12 mb-8 sm:p-4 hover:scale-105 transition-transform">
             <img src={imageSrc} alt={`class ${index + 1} photo`} className='relative mx-auto z-10 rounded-basic'/>
           </div>
         ))}

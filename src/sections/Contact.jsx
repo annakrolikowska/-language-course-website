@@ -27,7 +27,7 @@ function Contact() {
                     <h3 className='sm:text-2xl'>telegram: @Ksenia_Polski</h3>
                   </div>
                 </div>
-                <div className="hidden md:block max-h-[465px] w-1/2 overflow-hidden">
+                <div className="hidden md:block max-h-[465px] w-1/2 overflow-hidden xl:p-6">
                   <img src={contactImg} alt="contact photo" className='w-full h-full object-cover'/> 
                 </div>
             </div>

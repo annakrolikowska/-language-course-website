@@ -25,7 +25,7 @@ function About() {
                         ))}
                     </div>
                     <div className='relative lg:w-6/12 flex items-center'>
-                        <img src={aboutImage} alt="Ksenia Sumina" className='relative sm:w-8/12 lg:w-11/12 mx-auto z-10 rounded-basic'/>
+                        <img src={aboutImage} alt="Ksenia Sumina" className='relative sm:w-8/12 lg:w-11/12 mx-auto z-10 rounded-basic hover:scale-105 transition-transform'/>
                         <div className=' xl:h-[492px] bg-primary-25 absolute top-20  left-0 right-0 rounded-basic'></div> 
                     </div> 
                     

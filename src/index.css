@@ -2,6 +2,7 @@ body {
   font-family: Poppins;
   background-color: #FFFCF7;
   color: #0A0808;
+  scroll-behavior: smooth;
 }
 
 .font-radley {
