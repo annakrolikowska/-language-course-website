@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 function Navbar() {
   const navLinks = [
-    { text: 'Strona główna', url: '/' },
-    { text: 'O mnie', url: '#about' },
-    { text: 'Oferta', url: '#offer' },
-    { text: 'Kontakt', url: '#contact' },
+    { text: 'Головна сторінка', url: '/' },
+    { text: 'про мене', url: '#about' },
+    { text: 'пропозиція', url: '#offer' },
+    { text: 'Контакти', url: '#contact' },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

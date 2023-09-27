@@ -11,7 +11,7 @@ function Contact() {
             <div className='md:flex justify-between'>
                 <div className='mb-12 md:my-24'>
                    <div className='relative inline-block'>
-                      <h2 className='text-5xl font-radley relative z-10'>Kontakt</h2>
+                      <h2 className='text-5xl font-radley relative z-10'>Контакт </h2>
                       <div className='w-100 h-4 bg-primary-25 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
                   </div>
                   <div className='flex align-center items-center gap-5 my-8'>

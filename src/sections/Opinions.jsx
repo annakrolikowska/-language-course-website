@@ -6,40 +6,41 @@ function Opinions() {
       <div className='bg-primary-25'>
         <div className='container mx-auto auto pb-10 mb-12 md:mb-0 px-5 xl:px-0 pt-16'>
           <div className='relative inline-block'>
-              <h2 className='text-5xl font-radley relative z-10'>Opinie</h2>
+              <h2 className='text-5xl font-radley relative z-10'>Думки</h2>
               <div className='w-100 h-4 bg-grey-0 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
           </div>
     
           <div className='lg:flex gap-8 xl:gap-24 my-8  justify-between'>
 
-            <div className="sm:p-10">
+            <div className="sm:p-10 w-full">
               <p>
                 <span className='text-8xl font-radley'>“</span>
-                Ksenia - bardzo profesjonalna nauczycielka, zawsze gotowa wyjaśnić każdy materiał i odpowiedzieć na wszystkie pytania. Jej tempo nauczania jest idealne - nie zbyt szybkie i nie zbyt wolne, zawsze dostosowane do indywidualnych potrzeb uczniów.
+                Ксенія - дуже професійний вчитель, завжди готова пояснити будь-який матеріал і відповісти на всі запитання. Її темп навчання ідеальний - не занадто швидкий і не занадто повільний, завжди пристосований до індивідуальних потреб учнів.
               </p> 
               <p className='mt-4'>
-                Szczególnie podobało mi się to, jak Ksenia rozumie nasze poczucie humoru. Dzięki temu zajęcia zawsze były interesujące i zabawne. Czułem się swobodnie pytając o cokolwiek, i zawsze otrzymywałem informacje w przystępnej formie. 
+              Особливо мені сподобалося, як Ксенія розуміє наше почуття гумору. Це завжди робило заняття цікавими і веселими. Я почувався вільним, питаючи про щось, і завжди отримував інформацію у доступній формі. 
               </p>
               <p className='mt-4'>
-                Jestem bardzo wdzięczny Ksenii za jej cierpliwość, profesjonalizm i jaskrawą osobowość.
+              Я дуже вдячний Ксенії за її терплячість, професіоналізм і яскраву особистість :D
               </p>
               <span className='text-8xl font-radley float-right'>”</span>
               <p className='mt-8'>~ Daniil </p>
             </div>
             
-            <div className="sm:p-10">
+            <div className="sm:p-10 w-full">
               <p>
                 <span className='text-8xl font-radley'>“</span>
-                Ksenia - bardzo profesjonalna nauczycielka, zawsze gotowa wyjaśnić każdy materiał i odpowiedzieć na wszystkie pytania. Jej tempo nauczania jest idealne - nie zbyt szybkie i nie zbyt wolne, zawsze dostosowane do indywidualnych potrzeb uczniów.
+                Я надзвичайно задоволена викладанням польської мови у Вас! Ваша відмінна експертиза і відданість викладанню роблять навчання польської мови легким і захоплюючим. 
               </p> 
               <p className='mt-4'>
-                Szczególnie podobało mi się to, jak Ksenia rozumie nasze poczucie humoru. Dzięki temu zajęcia zawsze były interesujące i zabawne. Czułem się swobodnie pytając o cokolwiek, i zawsze otrzymywałem informacje w przystępnej formie. 
+                Ви завжди терплячі, завжди готові допомогти з будь-якими питаннями та виправленнями. 
+                Ваші уроки завжди цікаві та насичені корисною інформацією.              
               </p>
               <p className='mt-4'>
-                Jestem bardzo wdzięczny Ksenii za jej cierpliwość, profesjonalizm i jaskrawą osobowość.
+              Дякую вам за надання такої чудової можливості вивчати польську мову!
               </p>
               <span className='text-8xl font-radley float-right'>”</span>
-              <p className='mt-8'>~ Daniil </p>
+              <p className='mt-8'>~ Nastia </p>
             </div>
          </div>
         </div>
