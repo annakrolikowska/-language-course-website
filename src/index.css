@@ -1,12 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Poppins;
   background-color: #FFFCF7;
   color: #0A0808;
-  scroll-behavior: smooth;
 }
 
 .font-radley {
   font-family: Radley;
 }
 
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1.5s ease-in forwards;
+}
 
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
