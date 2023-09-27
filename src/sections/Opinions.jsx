@@ -6,7 +6,7 @@ function Opinions() {
       <div className='bg-primary-25'>
         <div className='container mx-auto auto pb-10 mb-12 md:mb-0 px-5 xl:px-0 pt-16'>
           <div className='relative inline-block'>
-              <h2 className='text-5xl font-radley relative z-10'>Думки</h2>
+              <h2 className='text-5xl font-radley relative z-10'>Відгуки</h2>
               <div className='w-100 h-4 bg-grey-0 absolute bottom-[-1px] left-0 right-0 rounded-basic'></div> 
           </div>
     
