@@ -1,2 +1,13 @@
-# -language-course-website
-A landing page offering Polish language lessons for Ukrainians. Built using React and Tailwind CSS. The page is a work in progress.
+# 📑 Language course website
+A landing page designed for my friend who teaches the Polish language.  This website is built using React and styled with Tailwind CSS.
+
+Check it out: https://polski-z-ikra.web.app/
+
+
+
+
+
+
+
+
+###### React • Tailwind • Webpack • Git • Figma
